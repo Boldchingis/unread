@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: SF display, sans-serif;
+}
+
+header {
+  height: 100px;
+  background-color: red;
+}
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0)),
+    url(unread\ today.jpg);
+  background-size: 100%;
+  padding: 100px;
+}
+.hero-contect {
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+  gap: 68px;
+}
+.hero-contect div {
+  width: 50%;
+
+  color: aliceblue;
+}
+
+.hero-contect h1 {
+  -webkit-text-stroke: white 1px;
+  color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 40px;
+}
+.shine {
+  font-weight: 700;
+}
+
+.toosuld {
+  background: url(sonin.jpg);
+  background-size: cover;
+  height: 446.4px;
+  max-width: 446.4px;
+  background-position: center;
+  border-radius: 16px;
+  background-size: 160%;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.toosuld:hover {
+  background-size: 175%;
+}
+.toosuld-text {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  transition: all 0.4s;
+  font-weight: 700;
+}
+.toosuld-text:hover {
+  opacity: 0.7;
+}
