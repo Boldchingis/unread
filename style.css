@@ -5,15 +5,34 @@
 }
 
 header {
-  height: 100px;
-  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
+input {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: white;
+}
+.search-input {
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero {
   height: 100vh;
   background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0)),
     url(unread\ today.jpg);
   background-size: 100%;
-  padding: 100px;
+  padding: 20px;
 }
 .hero-contect {
   width: 1440px;
@@ -21,7 +40,7 @@ header {
   margin-left: auto;
   display: flex;
   justify-content: center;
-  background-color: bisque;
+
   gap: 68px;
 }
 .hero-contect div {
@@ -38,8 +57,23 @@ header {
   font-weight: 900;
   font-size: 40px;
 }
+
 .shine {
   font-weight: 700;
+  font-size: larger;
+  color: blue;
+  animation: blink 2s linear infinite;
+}
+@keyframes blink {
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.5;
+  }
 }
 
 .toosuld {
@@ -65,4 +99,19 @@ header {
 }
 .toosuld-text:hover {
   opacity: 0.7;
+}
+.icons {
+  width: 16px;
+  height: 15px;
+  opacity: 70%;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: white;
+}
+
+footer {
+  background-color: red;
+
+  height: 750px;
 }
