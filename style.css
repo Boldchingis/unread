@@ -26,9 +26,13 @@ input {
   justify-content: center;
   align-items: center;
 }
+.dot {
+  animation: blink 2s linear infinite;
+  color: rgb(0, 81, 255);
+}
 
 .hero {
-  height: 100vh;
+  height: 70vh;
   background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0)),
     url(unread\ today.jpg);
   background-size: 100%;
@@ -61,7 +65,7 @@ input {
 .shine {
   font-weight: 700;
   font-size: larger;
-  color: blue;
+  color: rgb(0, 81, 255);
   animation: blink 2s linear infinite;
 }
 @keyframes blink {
@@ -103,11 +107,100 @@ input {
 .icons {
   width: 16px;
   height: 15px;
-  opacity: 70%;
   display: flex;
   align-items: center;
-  gap: 13px;
   color: white;
+  gap: 13px;
+}
+a {
+  width: 16px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 13px;
+}
+.facebook:hover {
+  color: #1877f2;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.instagram {
+  opacity: 70%;
+}
+.instagram:hover {
+  color: #e4405f;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.twitter {
+  opacity: 70%;
+}
+.twitter:hover {
+  color: #1da1f2;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.linkedin {
+  opacity: 70%;
+}
+.linkedin:hover {
+  opacity: 100%;
+  transition: 0.3s;
+  color: #0a66c2;
+}
+.kanyezurag {
+  height: 36px;
+  width: 36px;
+  border-radius: 50px;
+  border: 1px solid grey;
+  transition: all 0.3s;
+}
+.kanyezurag:hover {
+  border: 1px solid white;
+}
+
+.kanyewest {
+  font-weight: 700;
+  font-size: 12px;
+  opacity: 50%;
+  transition: all 0.2s;
+}
+.kanyewest:hover {
+  opacity: 100%;
+}
+
+.bogloos {
+  position: relative;
+
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.songolt {
+  position: absolute;
+  top: -60px;
+  font-size: 17px;
+  color: white;
+  font-weight: 900;
+
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  width: 1250px;
+}
+.posteruud {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.poster {
+  width: 300px;
+  height: 420px;
+  border-radius: 20px;
 }
 
 footer {
