@@ -741,7 +741,27 @@ a {
   transition: all 0.2s;
 }
 
-.footer-facebook:hover {
+.footer-facebook i:hover {
   color: #1877f2;
+  opacity: 100%;
+}
+.footer-twitter i:hover {
+  color: #1da1f2;
+  opacity: 100%;
+}
+.footer-instagram i:hover {
+  color: #e4405f;
+  opacity: 100%;
+}
+.footer-linkedin i:hover {
+  color: #0a66c2;
+  opacity: 100%;
+}
+.footer-youtube i:hover {
+  color: #cd201f;
+  opacity: 100%;
+}
+.footer-soundcloud i:hover {
+  color: #ff3300;
   opacity: 100%;
 }
